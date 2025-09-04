@@ -1,6 +1,5 @@
 # vite-plugin-html-img-to-picture
 
-[![npm](https://img.shields.io/npm/dt/vite-plugin-html-img-to-picture?style=for-the-badge)](https://www.npmjs.com/package/vite-plugin-html-img-to-picture)
 [![GitHub License](https://img.shields.io/github/license/atrocityz/vite-plugin-html-img-to-picture?style=for-the-badge)](https://github.com/atrocityz/vite-plugin-html-img-to-picture/blob/main/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/atrocityz/vite-plugin-html-img-to-picture?style=for-the-badge)
 [![Issues](https://img.shields.io/github/issues/atrocityz/vite-plugin-html-img-to-picture?style=for-the-badge)](https://github.com/atrocityz/vite-plugin-html-img-to-picture/issues)
@@ -11,13 +10,13 @@
 
 ## Установка
 ```console
-npm install --save-dev vite-plugin-html-img-to-picture
+npm install --save-dev @atrocityz/vite-plugin-html-img-to-picture
 ```
 
 ```js
 // vite.config.js
 import { defineConfig } from 'vite'
-import { imgToPicture } from "vite-plugin-html-img-to-picture"
+import { imgToPicture } from "@atrocityz/vite-plugin-html-img-to-picture"
 
 export default defineConfig({
   plugins: [

@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-html-img-to-picture",
+  "name": "@atrocityz/vite-plugin-html-img-to-picture",
   "version": "1.0.4",
   "description": "A Vite plugin that transform img tag to picture and converts images for build version",
   "homepage": "https://github.com/atrocityz/vite-plugin-html-img-to-picture#readme",
@@ -25,7 +25,7 @@
     "dist/"
   ],
   "license": "MIT",
-  "author": "atro",
+  "author": "atrocityz",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
