@@ -21,7 +21,7 @@ import { imgToPicture } from "vite-plugin-html-img-to-picture"
 
 export default defineConfig({
   plugins: [
-    htmlImgConverter()
+    imgToPicture()
   ],
 })
 ```
