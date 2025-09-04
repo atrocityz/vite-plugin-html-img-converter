@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-html-img-to-picture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vite plugin that transform img tag to picture and converts images for build version",
   "homepage": "https://github.com/atrocityz/vite-plugin-html-img-to-picture#readme",
   "bugs": {
