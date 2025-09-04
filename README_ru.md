@@ -87,7 +87,7 @@ export default defineConfig({
 Как пример, конфигурация может выглядеть так:
 
 ```js
-htmlImgOptimizer({
+imgToPicture({
     formats: ["webp", "avif"], // Форматы для конвертации
     quality: 80, // Качество изображения
     outputDir: "/assets/images", // Путь куда будут помещены конвертированные изображения в build версии
@@ -111,7 +111,7 @@ htmlImgOptimizer({
 По стандарту отладка отключена, но, если Вы столкнулись с проблемой обработки изображений, можно включить логирование:
 
 ```js
-htmlImgOptimizer({
+imgToPicture({
   isDebugMode: true, // (по стандарту = false)
 })
 ```

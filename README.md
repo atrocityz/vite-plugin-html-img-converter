@@ -21,7 +21,7 @@ import { imgToPicture } from "vite-plugin-html-img-to-picture"
 
 export default defineConfig({
     plugins: [
-        htmlImgConverter()
+        imgToPicture()
     ],
 })
 ```
@@ -87,7 +87,7 @@ You can change the settings for converting images.
 As an example, the configuration might look like this:
 
 ```js
-htmlImgOptimizer({
+imgToPicture({
     formats: ["webp", "avif"], // Formats for conversion
     quality: 80, // Image quality
     outputDir: "/assets/images", // Path where converted images will be placed in build version
@@ -111,7 +111,7 @@ Rules under which the plugin works out:
 Debugging is disabled by the standard, but if you encounter an image processing problem, you can enable logging.:
 
 ```js
-htmlImgOptimizer({
+imgToPicture({
   isDebugMode: true, // (default = false)
 })
 ```
