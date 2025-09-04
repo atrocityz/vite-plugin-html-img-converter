@@ -1,0 +1,49 @@
+{
+  "name": "vite-plugin-html-img-to-picture",
+  "version": "1.0.0",
+  "description": "A Vite plugin that transform img tag to picture and converts images for build version",
+  "homepage": "https://github.com/atrocityz/vite-plugin-html-img-to-picture#readme",
+  "bugs": {
+    "url": "https://github.com/atrocityz/vite-plugin-html-img-to-picture/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrocityz/vite-plugin-html-img-to-picture.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "vite",
+    "plugin",
+    "html",
+    "image optimization",
+    "image compression",
+    "converter",
+    "img-to-picture",
+    "sharp"
+  ],
+  "files": [
+    "dist/"
+  ],
+  "license": "MIT",
+  "author": "atro",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "publish:next": "npm version prerelease --preid=next && npm publish --tag next",
+    "publish:latest": "npm version patch && npm publish"
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3"
+  }
+}
