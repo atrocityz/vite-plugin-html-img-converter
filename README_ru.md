@@ -10,7 +10,14 @@
 
 ## Установка
 ```console
-npm install --save-dev @atrocityz/vite-plugin-html-img-to-picture
+# npm
+npm install -D @atrocityz/vite-plugin-html-img-to-picture
+
+# yarn
+yarn add -D @atrocityz/vite-plugin-html-img-to-picture
+
+# pnpm
+pnpm add -D @atrocityz/vite-plugin-html-img-to-picture
 ```
 
 ```js
